@@ -20,29 +20,27 @@ public class Main {
      * @return 结果字符串
      */
     public static String monthSeason(int month) {
-        String str;
-        switch(month){
+        switch (month) {
             case 3:
             case 1:
             case 2:
-                return Integer.toString(month)+"月是春季";
+                return month + "月是春季";
             case 4:
             case 5:
             case 6:
-                return Integer.toString(month)+"月是夏季";
+                return month + "月是夏季";
             case 7:
             case 8:
             case 9:
-                return Integer.toString(month)+"月是秋季";
+                return month + "月是秋季";
 
             case 10:
             case 11:
             case 12:
-                return Integer.toString(month)+"月是冬季";
+                return month + "月是冬季";
 
             default:
                 return "非法输入";
-
         }
     }
 }
