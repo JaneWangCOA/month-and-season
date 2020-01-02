@@ -33,12 +33,10 @@ public class Main {
             case 8:
             case 9:
                 return month + "月是秋季";
-
             case 10:
             case 11:
             case 12:
                 return month + "月是冬季";
-
             default:
                 return "非法输入";
         }
