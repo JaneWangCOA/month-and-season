@@ -25,27 +25,24 @@ public class Main {
             case 3:
             case 1:
             case 2:
-                str = Integer.toString(month)+"月是春季";
-                break;
+                return Integer.toString(month)+"月是春季";
             case 4:
             case 5:
             case 6:
-                str = Integer.toString(month)+"月是夏季";
-                break;
+                return Integer.toString(month)+"月是夏季";
             case 7:
             case 8:
             case 9:
-                str = Integer.toString(month)+"月是秋季";
-                break;
+                return Integer.toString(month)+"月是秋季";
+
             case 10:
             case 11:
             case 12:
-                str = Integer.toString(month)+"月是冬季";
-                break;
+                return Integer.toString(month)+"月是冬季";
+
             default:
-                str = "非法输入";
-                break;
+                return "非法输入";
+
         }
-        return str;
     }
 }
